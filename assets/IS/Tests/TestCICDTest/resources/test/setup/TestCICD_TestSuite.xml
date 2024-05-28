@@ -20,4 +20,14 @@
             </expected>
         </service>
     </webMethodsTestCase>
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_homeExpenses">
+        <service folder="TestCICD" name="homeExpenses">
+            <input>
+                <file filename="resources/test/data/TestCICD_homeExpenses2_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/TestCICD_homeExpenses2_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
 </webMethodsTestSuite>
